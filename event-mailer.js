@@ -88,7 +88,7 @@ function getEventsAndMail() {
       var i = 0;
       var starter = 3;
       var eventDay = starter; //Starting on Wednesday
-      message = "Weekly Calendar from Google's Neal Family Calendar \n\n\n";
+      message = "Weekly Calendar from Google's Family Calendar \n\n\n";
       var dayOfWeek = events[i].getStartTime().toDateString();
        for (i = 0; i < events.length; i++) {
          var temp = events[i].getStartTime().getDay();
